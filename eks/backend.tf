@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "pranay-bucket-terraform"
+    bucket         = "cf-templates-7o0c2eap0hfs-us-east-1"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "Lock-Files"
